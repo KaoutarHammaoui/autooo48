@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ServiceCarousel from './servicecarousel';
-import HomePga from '../Componenets/homepage';
+import HomePga from '../componenets/homepage';
 
 
 export default function Acceuil() {

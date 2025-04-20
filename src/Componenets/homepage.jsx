@@ -17,17 +17,17 @@ export default function HomePga(){
         <div className="grid lg:grid-cols-6  pr-[140px]">  
           <div className="col-span-6">
             {/* BigVector Image */}
-            <img src="./pics/bigvector.png" alt="" className="hidden lg:absolute -top-28" />
+            <img src="./pics/bigvectpr.png" alt="" className="hidden lg:absolute -top-28" />
       
             {/* Mobile Vector Images */}
             <div className="flex absolute top-[2300px] -left-6 ">
-            <img src="./pics/bigvector.png" alt="" className="absolute -top-[335px] ml-12 lg:ml-20 lg:-mt-20 " />
-              <img src="./pics/mobile/vectordown.png" alt="" />
-              <img src="./pics/mobile/vectordown.png" alt="" className="-ml-4 lg:ml-0"/>
-              <img src="./pics/mobile/vectordown.png" alt="" className="-ml-4 lg:ml-0"/>
-              <img src="./pics/mobile/vectordown.png" alt="" className="-ml-4 lg:ml-0" />
-              <img src="./pics/mobile/vectordown.png" alt="" className="-ml-4 lg:ml-0"/>
-              <img src="./pics/mobile/vectordown.png" alt="" className="-ml-4 lg:ml-0"/>
+            <img src="./pics/bigvectpr.png" alt="" className="absolute -top-[335px] ml-12 lg:ml-20 lg:-mt-20 " />
+              <img src="./pics/mobile/vecdown.png" alt="" />
+              <img src="./pics/mobile/vecdown.png" alt="" className="-ml-4 lg:ml-0"/>
+              <img src="./pics/mobile/vecdown.png" alt="" className="-ml-4 lg:ml-0"/>
+              <img src="./pics/mobile/vecdown.png" alt="" className="-ml-4 lg:ml-0" />
+              <img src="./pics/mobile/vecdown.png" alt="" className="-ml-4 lg:ml-0"/>
+              <img src="./pics/mobile/vecdown.png" alt="" className="-ml-4 lg:ml-0"/>
             </div>
         </div>
       </div>
@@ -77,24 +77,24 @@ export default function HomePga(){
         <img src="./pics/seventhimg.png" alt="" className="w-[200px]"/>
         <img src="./pics/eightimg.png" alt="" className="w-[200px]" />
         <img src="./pics/ninethimg.png" alt="" className="w-[200px]" />
-        <img src="./pics/lastimginrow.png" alt="" className="w-[200px]"/>
+        <img src="./pics/tenimg.png" alt="" className="w-[200px]"/>
         <img src="./pics/sixthimg.png" alt="" className="w-[200px]"/>
         <img src="./pics/seventhimg.png" alt="" className="w-[200px]" />
         <img src="./pics/eightimg.png" alt="" className="w-[200px]"/>
         <img src="./pics/ninethimg.png" alt="" className="w-[200px]"/>
-        <img src="./pics/lastimginrow.png" alt="" className="w-[200px]"/>
+        <img src="./pics/tenimg.png" alt="" className="w-[200px]"/>
         
     </div>
  </div> 
  {/*links to socia media */}
     <div className="-ml-1">
         <div className=" mt-16 ml-4 flex lg:hidden">
-             <img src="./pics/breaklineleft.png" alt="" className="mr-40 ml-5"/>
-             <img src="./pics/breaklineright.png" alt="" className="ml-4 " />
+             <img src="./pics/formline.png" alt="" className="mr-40 ml-5"/>
+             <img src="./pics/formliner.png" alt="" className="ml-4 " />
         </div>
         <div className=" lg:mt-16 lg:ml-32 lg:gap-28 lg:flex hidden">
-             <img src="./pics/brekalineleftdesktop.png" alt="" className="mr-40 ml-5"/>
-             <img src="./pics/breaklinerightdesktop.png" alt="" className="ml-4 " />
+             <img src="./pics/formlineld.png" alt="" className="mr-40 ml-5"/>
+             <img src="./pics/formlinerd.png" alt="" className="ml-4 " />
         </div>
         <div className="flex gap-2 -mt-8 ml-[7.4rem] lg:ml-[36.5rem] lg:gap-4 lg:mb-6">
            <a href="https://web.facebook.com/" target="_blank" >
@@ -104,7 +104,7 @@ export default function HomePga(){
            <img src="./pics/instalogo.png" alt="" className="w-[48px] h-[48px]"/>
           </a>
           <a href="https://www.tiktok.com/login?lang=fr&redirect_url=https%3A%2F%2Fwww.tiktok.com%2Fupload%3Flang%3Dfr" target="_blank" rel="noopener noreferrer">
-          <img src="./pics/tiktoklogo.png" alt="" className="w-[48px] h-[48px]"/>
+          <img src="./pics/tiktoklogor.png" alt="" className="w-[48px] h-[48px]"/>
            </a>
         </div>
     </div>    
@@ -112,7 +112,7 @@ export default function HomePga(){
     {/*Second Layout */}
     <div className="flex gap-20 -mt-12 -ml-20 lg:ml-[40rem] lg:gap-3 lg:mt-1 ">
         <img src="./pics/smallcarf.png" alt="" className="lg:-mt7" />
-        <button onClick={GoToTheTop}><img src="./pics/vectorlogo.png" alt="" className="h-[58.36px] w-[57px] mt-7 ml-7 lg:-mt-4 lg:ml-12 lg:h-[77.6.36px] lg:w-[77.6px]"/> </button>
+        <button onClick={GoToTheTop}><img src="./pics/vectorgoup.png" alt="" className="h-[58.36px] w-[57px] mt-7 ml-7 lg:-mt-4 lg:ml-12 lg:h-[77.6.36px] lg:w-[77.6px]"/> </button>
     </div>
     <div className="relative min-h-screen lg:hidden " >
         <div style={{backgroundImage:"url('./pics/mobile/formbgm.png')",  clipPath: 'polygon(20% 0%, 82% 0, 100% 12%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 0)',
@@ -121,27 +121,27 @@ export default function HomePga(){
         <img src="./pics/fortyeightmobile.png" alt="" className="relative z-10 -mt-[31.5rem] -ml-[0.3rem] mx-auto " style={{top:"8rem"}} />
         <div className="relative z-10 -mt-32 ml-[27.3px]">
            <div>
-             <img src="./pics/mobile/whitelinear.png" alt="" className="w-[227.4px]" />
+             <img src="./pics/mobile/whiteline.png" alt="" className="w-[227.4px]" />
              <p className="text-white text-[24.09px] font-neo mt-2">POUR NOUS JOINDRE </p>
              <p className="text-white font-turretBold text-[15.6px] uppercase">Découvrez des solutions abordables <br /> pour votre voiture!</p>
             </div> 
              
             <div className="text-white">
                                  <p className="">
-                                  <img src="./pics/phonelogo.png" alt="" className="mt-10"/>
+                                  <img src="./pics/phoneicon.png" alt="" className="mt-10"/>
                                   <p className="font-turretBold text-[19.99px] ml-20 -mt-[4.3rem]" style={{top:"5rem"}} >Appeler à tout moment</p>
                                   <p className="ml-20 font-turret text-[16.04px]">05 36 716 777</p>
                                   <p className="ml-20 font-turret text-[16.04px]" >05 36 716 778</p>
                                  </p>
         
                                  <p className="mt-5">
-                                    <img src="./pics/maillogo.png" alt="" />
+                                    <img src="./pics/emaillogo.png" alt="" />
                                     <p className="font-turretBold text-[19.99px] ml-20 -mt-[3.4rem]"  >Envoyer un e-mail</p>
                                     <p  className="font-turret text-[16.04px] ml-20 ">contact@auto48.ma</p>
                                  </p>
                                  
                                  <p className="mt-8">
-                                    <img src="./pics/locationlogo.png" alt="" />
+                                    <img src="./pics/locationl.png" alt="" />
                                     <p className="font-turretBold text-[19.99px] ml-20 -mt-[4rem]">Visitez-nous</p>
                                     <p className="font-turret text-[16.04px] ml-20"  >Rte d'Algérie lotis boustane 3 N° 191 <br /> Zone industrielle - Oujda</p>
                                  </p>
@@ -215,27 +215,27 @@ export default function HomePga(){
         <img src="./pics/fortyeightbgdesk.png" alt="" className="relative z-10 mt-[4.5rem] -ml-[0.3rem] lg:w-[1547.84px] lg:h-[541.84px]" style={{top:"8rem"}} />
         <div className="relative z-10 -mt-32 ml-[27.3px] lg:ml-48 lg:-mt-[28rem]">
            <div>
-             <img src="./pics/mobile/whitelinear.png" alt="" className="w-[227.4px]" />
+             <img src="./pics/whitelinear.png" alt="" className="w-[227.4px]" />
              <p className="text-white text-[24.09px] font-neo mt-2 lg:text-[33.78px]">POUR NOUS JOINDRE </p>
              <p className="text-white font-turretBold text-[15.6px] uppercase lg:text-[21.87px]">Découvrez des solutions abordables <br /> pour votre voiture!</p>
             </div> 
              
             <div className="text-white">
                                  <p className="">
-                                  <img src="./pics/phonelogo.png" alt="" className="mt-10"/>
+                                  <img src="./pics/phoneicon.png" alt="" className="mt-10"/>
                                   <p className="font-turretBold text-[19.99px] ml-20 -mt-[4.3rem] lg:text-[20.98px]" style={{top:"5rem"}} >Appeler à tout moment</p>
                                   <p className="ml-20 font-turret text-[16.04px] lg:text-[16.83px]">05 36 716 777</p>
                                   <p className="ml-20 font-turret text-[16.04px] lg:text-[16.83px]" >05 36 716 778</p>
                                  </p>
         
                                  <p className="mt-5">
-                                    <img src="./pics/maillogo.png" alt="" />
+                                    <img src="./pics/emaillogo.png" alt="" />
                                     <p className="font-turretBold text-[19.99px] ml-20 -mt-[3.4rem] lg:text-[20.98px]"  >Envoyer un e-mail</p>
                                     <p  className="font-turret text-[16.04px] ml-20 lg:text-[16.83px] ">contact@auto48.ma</p>
                                  </p>
                                  
                                  <p className="mt-8">
-                                    <img src="./pics/locationlogo.png" alt="" />
+                                    <img src="./pics/locationl.png" alt="" />
                                     <p className="font-turretBold text-[19.99px] ml-20 -mt-[4rem] lg:text-[20.98px]">Visitez-nous</p>
                                     <p className="font-turret text-[16.04px] ml-20 lg:text-[16.83px]"  >Rte d'Algérie lotis boustane 3 N° 191 <br /> Zone industrielle - Oujda</p>
                                  </p>
@@ -254,9 +254,9 @@ export default function HomePga(){
             </p>
             <p className="flex w-[333.34px] ml-7 lg:ml-8 p-2">
                
-                <img src="./pics/fromlineleft.png" alt="" className=" lg:w-[53.15px] lg:h-[33.15px]"/>
+                <img src="./pics/fromlf.png" alt="" className=" lg:w-[53.15px] lg:h-[33.15px]"/>
                 <p className="font-neo text-[16.38px] uppercase text-[#C81717] -ml-[12.5rem] lg:text-[20.38px] lg:ml-[1rem]">PARLEZ-NOUS</p>
-                <img src="./pics/fromlinright.png" alt="" className=" lg:w-[53.15px] lg:h-[33.15px]"/>
+                <img src="./pics/fromlr.png" alt="" className=" lg:w-[53.15px] lg:h-[33.15px]"/>
             </p>
  
 
